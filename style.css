@@ -1,3 +1,4 @@
+
 #porco {
     width: 200px;
     height: 200px;
@@ -60,4 +61,64 @@
   }
   
 
+#porco {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  #nariz {
+    width: 100px;
+    height: 60px;
+    background-color: purple;
+    left: 50px;
+    bottom: 80px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+    
+  #narina1{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 150px;
+    left: 80px;
+  }
+  #narina2{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 150px;
+    left: 120px;
+  }
+  #porco:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 40px;
+    left: 60px;
+  }
+  
+  #porco:after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 40px;
+    right: 60px;
+  }
   
